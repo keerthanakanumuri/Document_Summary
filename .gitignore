@@ -1,0 +1,51 @@
+# ==============================================
+# .gitignore — Files and folders to NEVER upload
+# ==============================================
+
+# --------------------------
+# SECRET FILES — VERY IMPORTANT
+# These contain API keys and must never be on GitHub
+# --------------------------
+.env
+.env.local
+.env.production
+client/.env
+server/.env
+
+# --------------------------
+# Node.js dependencies
+# These are installed locally with "npm install"
+# They are huge and not needed on GitHub
+# --------------------------
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# --------------------------
+# Build output
+# These are generated files — not source code
+# --------------------------
+dist/
+build/
+client/dist/
+
+# --------------------------
+# Uploaded files on the server
+# We don't want to commit user uploads
+# --------------------------
+server/uploads/*
+!server/uploads/.gitkeep
+
+# --------------------------
+# OS and editor junk files
+# --------------------------
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
+
+# --------------------------
+# Tesseract.js cache
+# --------------------------
+tessdata/

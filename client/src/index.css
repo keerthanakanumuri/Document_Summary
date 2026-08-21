@@ -1,0 +1,4 @@
+/* Tailwind base styles — these three lines are required */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
