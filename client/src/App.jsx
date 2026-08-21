@@ -235,7 +235,7 @@ function App() {
 
         {/* Footer */}
         <p className="text-center text-gray-400 text-xs mt-6">
-          Powered by Google Gemini · Supports PDF & Images
+          Powered by Groq AI · Supports PDF & Images
         </p>
       </main>
     </div>
