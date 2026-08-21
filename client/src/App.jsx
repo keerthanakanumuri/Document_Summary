@@ -9,7 +9,7 @@ import LoadingSpinner from './components/LoadingSpinner';
 import ResultDisplay from './components/ResultDisplay';
 
 // The backend URL — in production this will be your Render deployment URL
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+const API_URL =import.meta.env.VITE_API_URL ||'https://document-summary-api-vdnh.onrender.com';
 
 // The loading messages shown in sequence during processing
 const LOADING_MESSAGES = [
