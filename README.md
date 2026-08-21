@@ -81,7 +81,7 @@ Display Summary + Key Points
 
 Live Application
 
-https://document-summary-nine.vercel.app
+https://document-summary-nine.vercel.app/
 
 GitHub Repository
 
